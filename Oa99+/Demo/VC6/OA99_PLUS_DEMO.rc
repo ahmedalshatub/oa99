@@ -1,0 +1,238 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\OA99_PLUS_DEMO.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\OA99_PLUS_DEMO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 OA99_PLUS_DEMO"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "OA99_PLUS_DEMO 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_OA99_PLUS_DEMO_DIALOG DIALOGEX 0, 0, 359, 295
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OA99_PLUS_DEMO"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_IMAGE,7,11,192,222
+    PUSHBUTTON      "Open Device",IDC_BTN_OPEN_DEV,143,262,56,26
+    EDITTEXT        IDC_EDIT_LUM,142,241,48,14,ES_AUTOHSCROLL
+    LTEXT           "Lum",IDC_STATIC,119,244,16,11
+    GROUPBOX        "",IDC_STATIC,209,11,143,78
+    PUSHBUTTON      "Show Image",IDC_BTN_SHOW_RAW,217,24,55,25
+    PUSHBUTTON      "Show Bin&Fea",IDC_BTN_SHOW_BIN_FEA,217,55,55,25
+    PUSHBUTTON      "Store Image",IDC_BTN_STORE_IMG,277,24,67,16
+    PUSHBUTTON      "Store Bin",IDC_BTN_STORE_BIN,277,44,67,16
+    PUSHBUTTON      "Store Feature",IDC_BTN_STORE_FEA,277,64,67,16
+    GROUPBOX        "",IDC_STATIC,209,93,143,195
+    LTEXT           "1:1 Match With Feature File",IDC_STATIC,223,106,112,16
+    PUSHBUTTON      "Browse",IDC_BTN_BROWSE,300,134,38,16
+    PUSHBUTTON      "Match",IDC_BTN_MATCH,300,154,38,16
+    LTEXT           "Fea File",IDC_STATIC,224,137,36,12
+    EDITTEXT        IDC_EDIT_FEA_PATH,260,136,35,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATCH_RESULT,260,155,35,13,ES_AUTOHSCROLL
+    LTEXT           "Result",IDC_STATIC,224,157,26,17
+    GROUPBOX        "",IDC_STATIC,218,123,126,54
+    LTEXT           "1:N Match with Current Dir Feature",IDC_STATIC,214,198,
+                    137,16
+    EDITTEXT        IDC_EDIT_MATCH_CNT,264,219,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATCHN_RESULT,264,236,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MATCH_TIME,264,253,44,12,ES_AUTOHSCROLL
+    LTEXT           "Match Cnt",IDC_STATIC,219,221,41,15
+    LTEXT           "Result",IDC_STATIC,219,240,25,12
+    LTEXT           "Time",IDC_STATIC,219,256,23,10
+    PUSHBUTTON      "Match",IDC_BTN_MATCHN,315,218,29,47
+    GROUPBOX        "",IDC_STATIC,6,6,194,228
+    EDITTEXT        IDC_EDIT_STATUS,11,243,70,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "Enum Device",IDC_BTN_ENUM_DEV,7,262,56,26
+    COMBOBOX        IDC_COMBO1,69,267,69,35,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "OA99_PLUS_DEMO Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "OA99_PLUS_DEMO\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OA99_PLUS_DEMO.EXE\0"
+            VALUE "ProductName", "OA99_PLUS_DEMO 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_OA99_PLUS_DEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+        HORZGUIDE, 158
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 OA99_PLUS_DEMO(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\OA99_PLUS_DEMO.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

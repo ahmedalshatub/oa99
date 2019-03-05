@@ -1,0 +1,36 @@
+Line 13: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 230: Class MSComctlLib.Slider of control Brightness was not a loaded control class.
+Line 280: Class MSComctlLib.Slider of control Contrast was not a loaded control class.
+Line 290: Class MSComctlLib.Slider of control Hue was not a loaded control class.
+Line 300: Class MSComctlLib.Slider of control Saturation was not a loaded control class.
+Line 310: Class MSComctlLib.Slider of control Sharpness was not a loaded control class.
+Line 320: Class MSComctlLib.Slider of control Gama was not a loaded control class.
+Line 330: Class MSComctlLib.Slider of control WBalance was not a loaded control class.
+Line 340: Class MSComctlLib.Slider of control Exposure was not a loaded control class.
+Line 16: The property name _ExtentX in CommonDialog1 is invalid.
+Line 17: The property name _ExtentY in CommonDialog1 is invalid.
+Line 18: The property name _Version in CommonDialog1 is invalid.
+Line 236: The property name _ExtentX in Brightness is invalid.
+Line 237: The property name _ExtentY in Brightness is invalid.
+Line 238: The property name _Version in Brightness is invalid.
+Line 286: The property name _ExtentX in Contrast is invalid.
+Line 287: The property name _ExtentY in Contrast is invalid.
+Line 288: The property name _Version in Contrast is invalid.
+Line 296: The property name _ExtentX in Hue is invalid.
+Line 297: The property name _ExtentY in Hue is invalid.
+Line 298: The property name _Version in Hue is invalid.
+Line 306: The property name _ExtentX in Saturation is invalid.
+Line 307: The property name _ExtentY in Saturation is invalid.
+Line 308: The property name _Version in Saturation is invalid.
+Line 316: The property name _ExtentX in Sharpness is invalid.
+Line 317: The property name _ExtentY in Sharpness is invalid.
+Line 318: The property name _Version in Sharpness is invalid.
+Line 326: The property name _ExtentX in Gama is invalid.
+Line 327: The property name _ExtentY in Gama is invalid.
+Line 328: The property name _Version in Gama is invalid.
+Line 336: The property name _ExtentX in WBalance is invalid.
+Line 337: The property name _ExtentY in WBalance is invalid.
+Line 338: The property name _Version in WBalance is invalid.
+Line 346: The property name _ExtentX in Exposure is invalid.
+Line 347: The property name _ExtentY in Exposure is invalid.
+Line 348: The property name _Version in Exposure is invalid.
